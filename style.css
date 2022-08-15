@@ -35,7 +35,7 @@ body {
   border-radius: 50%;
   background-color: azure;
   filter: drop-shadow(0 0 15px black);
-  margin-top: 35px;
+  margin-top: 15px;
 }
 .button {
   padding: 15px;
@@ -45,6 +45,8 @@ body {
   margin-top: 45px;
 }
 button {
+  background-color: lightblue;
+  filter: drop-shadow(0 0 15px white);
   font-size: 1.3em;
   width: 250px;
   height: 75px;
@@ -54,4 +56,5 @@ button {
 }
 button:active {
   transform: scale(0.97);
+  filter: drop-shadow(0 0 0);
 }
