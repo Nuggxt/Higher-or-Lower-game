@@ -7,15 +7,3 @@ if (random > 50) {
   console.log("Your number is higher than 50. You win!");
   console.log(random);
 }
-
-
-
-
-// const button = document.querySelector('button');
-
-// function display() {
-//   const higher = alert('Your number was higher!');
-//   const lower =  alert('Your number was lower...');
-// }
-
-// button.addEventListener('click', display)
