@@ -42,7 +42,7 @@ body {
   flex-direction: column;
 }
 .display {
-  width: 300px;
+  width: 500px;
   height: 300px;
   margin-top: 50px;
   border: 1px solid azure;
@@ -74,5 +74,5 @@ button {
 }
 button:active {
   transform: scale(0.97);
-  box-shadow: 0 0 0;
+  box-shadow: 0 0 15px green;
 }

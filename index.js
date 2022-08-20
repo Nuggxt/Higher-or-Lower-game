@@ -7,6 +7,8 @@ if (random > 50) {
   console.log("Your number is higher than 50. You win!");
   console.log(random);
 }
-document.getElementById("gen-btn").addEventListener("click", function () {
-  alert(random);
-});
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function onClick(event){
+  event.target.style.color='gold';
+})
