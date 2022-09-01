@@ -52,23 +52,26 @@ body {
   justify-content: center;
   box-shadow: 0 0 15px azure;
   background-color: transparent;
+  color: azure;
+  font-size: 4em;
 }
 button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-input {
+button {
   width: 250px;
   height: 60px;
   border: none;
   border-radius: 50px;
-  background-color: white;
+  background-color: lightblue;
   box-shadow: 0 0 15px black;
   font-size: 1.2em;
+  font-family: 'DynaPuff', cursive;
   margin-top: 40px;
 }
-input:active {
+button:active {
   transform: scale(.98);
   box-shadow: 0 0 15px azure;
 }
