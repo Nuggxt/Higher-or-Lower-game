@@ -25,9 +25,7 @@ body {
 }
 .title2 {
   color: azure;
-  font-size: 1.3em;
-  padding: 10px;
-  border: 2px solid azure;
+  font-size: 1.5em;
 }
 .inst {
   color: azure;
@@ -41,10 +39,16 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.htp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .display {
   width: 300px;
   height: 300px;
-  margin-top: 10px;
+  margin-top: 20px;
   border: 1px solid azure;
   border-radius: 50px;
   display: flex;
@@ -53,7 +57,7 @@ body {
   box-shadow: 0 0 15px azure;
   background-color: transparent;
   color: azure;
-  font-size: 4em;
+  font-size: 8em;
 }
 button {
   display: flex;
