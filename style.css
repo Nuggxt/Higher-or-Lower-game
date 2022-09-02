@@ -31,7 +31,7 @@ body {
   color: azure;
   align-content: center;
   padding: 15px;
-  margin: 0% 25%;
+  margin: 0% 13%;
   text-decoration: underline;
 }
 .container {
@@ -60,6 +60,7 @@ body {
   color: azure;
   font-size: 8em;
   font-family: 'DynaPuff', cursive;
+  letter-spacing: 3px;
 }
 button {
   display: flex;
