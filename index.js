@@ -6,4 +6,3 @@ document.getElementById("rollButton").onclick = function () {
   x = Math.floor(Math.random() * 100) + 1; // Gets the random number
   document.getElementById("xlabel").innerHTML = x; // Displays the random number after button click
 };
-
